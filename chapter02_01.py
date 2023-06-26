@@ -43,4 +43,33 @@ print( )
 print('%10s' % ('nice1111'))
 print('{:>10}'.format('nice'))
 
+print('%-10s' % ('nice'))
+print('{:10}'.format('nice'))
+
+print('{:$>10}'.format('nice'))
+print('{:^10}'.format('nice'))
+
+print('%.5s'%('python study'))
+print('%5s' % ('python study'))
+print('{:10.5}'.format('python study'))
+
+# %d
+print('%d %d'%(1,2))
+print('{} {}'.format(1,2))
+
+print('%4d' % (42))
+print('{:4d}'.format(42))
+
+# %f
+print('%1.1f'%(3.143434343434343434))
+print('{:1.1f}'.format(3.143434343434))
+
+print('%06.2f' %(23.141592653589793))
+print('{:06.2f}'.format(23.141592653589793))
+
+print()
+
+
+
+
 
