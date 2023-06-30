@@ -88,3 +88,35 @@ for v in lt:
     print("curent Type:", type(v))
     print("multiply byt 2", v * 3)
     print(True * 3)
+
+print(">>>>>>>>>>>>>>>>>>")
+# for - else
+
+numbers = [14, 3, 4, 7, 10, 24, 17, 2 ,33, 15, 34, 36, 38]
+
+for num in numbers:
+    if num == 3:
+        print("Found : 24")
+        break
+else:
+    print("Not Found : 24")
+
+## 구구단 출력
+
+for i in range(2,10):
+    for j in  range(1,10):
+        print(i,'*',j,"=",i*j, end=', ')
+    print()
+
+print(">>>>>>>>>>>>>>>>>>")
+## 변환 예제
+name2 = "Aceman"
+
+print('Reverse', reversed(name2))
+print('Reverse', list(reversed(name2)))
+print('Reverse', tuple(reversed(name2)))
+print('Reverse', set(reversed(name2))) # 순서 x2
+
+
+
+
